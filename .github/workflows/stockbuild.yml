@@ -1,4 +1,4 @@
-name: build-kernel
+name: build-stock
 on:
   workflow_dispatch:  # 仅保留手动触发jobs
 
