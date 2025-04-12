@@ -15,6 +15,7 @@ jobs:
           repo init -u https://github.com/pa-gr/kernel_manifest -b android12-5.10-marble --depth=1
           repo sync
           ./build.sh -t -c
+          cat build.sh
           mv aospa-gki-marble-*.zip aospa-gki-kernel.zip
 
       - name: Generate release tag
