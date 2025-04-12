@@ -12,6 +12,7 @@ jobs:
 
       - name: "Clone repo, sync, and build"
         run: |
+          ls
           repo init -u https://github.com/pa-gr/kernel_manifest -b android12-5.10-marble --depth=1
           repo sync
           ./build.sh -t -c
