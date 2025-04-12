@@ -2,7 +2,7 @@ name: build-stock
 on:
   workflow_dispatch:  # 仅保留手动触发jobs
 
-:
+jobs:
   build-stock:
     runs-on: ubuntu-latest
     steps:
